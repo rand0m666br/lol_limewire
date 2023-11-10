@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+}
+body, html {
+	height: 100%;
+	width: 100%;
+	background-color: black;
+}
+#play {
+	height: 100%;
+	width: 100%;
+	background-color: black;
+}
+#play img {
+	margin: 12.5% 40%;
+	width: 300px;
+	cursor: pointer;
+	position: absolute;
+}
+#main {
+	height: 100%;
+	width: 100%;
+	background-image: url("pirate.gif");
+	background-position-x: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	display: none;
+}
